@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>    
+    <div id="play-area">
+        <div id="user-area">
+            You
+            <div id="user-answer" style="display: none;"></div>
+            <div>
+            <img src="assets/rock-logo.png" alt="">
+            <img src="assets/paper-logo.png" alt="">
+            <img src="assets/scissors-logo.png" alt="">
+            </div>
+        </div>
+
+        <div id="score">
+            <span id="user-score">0</span>
+            <span>-</span> 
+            <span id="computer-score">0</span>
+            <div><img src="assets/vs.png" alt=""></div>
+        </div>
+
+
+        <div id="computer-area">
+            Computer
+            <div id="computer-answer" style="display: none;"></div>
+            <div>
+            <img src="assets/rock-logo.png" alt="">
+            <img src="assets/paper-logo.png" alt="">
+            <img src="assets/scissors-logo.png" alt="">
+            </div>
+        </div>
+    </div>
+
+<script src="./game.js"></script>
+</body>
+</html>

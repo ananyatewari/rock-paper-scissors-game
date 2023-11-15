@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+body{
+    background-image: url("assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+
+h1{
+    color: rgb(90, 37, 192);
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10vh
+}
+
+body div{
+    display: flex;
+}
+
+div#game-image{
+    margin-left: 13vw;
+    margin-top: 5vh;
+}
+
+img#play-button{
+    margin-top: 50vh;
+    margin-left: 20vh;
+    cursor: pointer;
+}
+
+img#play-button:hover{
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+
+div span{
+    color: white;
+    margin-top: 13vh;
+    margin-left: 16px;
+    font-size: 2.5vh;
+    font-weight: 900;
+    position: relative;
+    bottom: 4px;
+}
+
+div#play-area{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div#score {
+    display: block;
+    margin-top: 10vh;
+}
+
+div#score span{
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+div#score img{
+    position: relative;
+    height: 70vh;
+    left: 33px;
+    top: 20px;
+}
+
+div#play-area div#user-area, div#computer-area{
+    border: 2px solid #ffc434;
+    color: white;
+    display: block;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px;
+    width: 600px;
+    height: 500px;
+    margin-top: 25vh;
+}   
+
+div#user-area div, div#computer-area div{
+    position: relative;
+    top: 350px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
