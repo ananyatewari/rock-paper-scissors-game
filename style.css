@@ -42,12 +42,12 @@ img#play-button:hover{
 
 div span{
     color: white;
-    margin-top: 13vh;
+    margin-top: 50vh;
     margin-left: 16px;
     font-size: 2.5vh;
     font-weight: 900;
     position: relative;
-    bottom: 4px;
+    /* bottom: 4px; */
 }
 
 div#play-area{
