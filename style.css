@@ -86,10 +86,55 @@ div#play-area div#user-area, div#computer-area{
     margin-top: 25vh;
 }   
 
+#user-answer{
+    height: 43vh;
+}
+
 div#user-area div, div#computer-area div{
-    position: relative;
-    top: 350px;
     display: flex;
     justify-content: space-around;
     cursor: pointer;
+}
+
+div#end-message{
+    margin-top: 10vh;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    position: fixed;
+    top: 0px;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;   
+    background-color: rgba(226, 203, 203, 0.592);
+}
+
+span#play-again{
+    cursor: pointer;
+    color: white;
+    background-color: #ffc434;
+    border-radius: 3px;
+    padding: 15px;
+    text-align: center;
+    margin-left: 45vw;
+    margin-top: 5vh;
+    font-weight: 900;
+    position: absolute;
+    bottom: 80px;
+    z-index: 5;
+    font-size: 3vh;
+}
+
+#end-text{
+    color: white;
+    font-size: 20vh;
+    position: absolute;
+    bottom: 40vh;
+    font-weight: 900;
+    background-color:#000000;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    margin-left: 25vw;
 }

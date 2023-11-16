@@ -10,11 +10,11 @@
     <div id="play-area">
         <div id="user-area">
             You
-            <div id="user-answer" style="display: none;"></div>
+            <div id="user-answer"></div>
             <div>
-            <img src="assets/rock-logo.png" alt="">
-            <img src="assets/paper-logo.png" alt="">
-            <img src="assets/scissors-logo.png" alt="">
+            <img src="assets/rock-logo.png" alt="" class="options" id="rock">
+            <img src="assets/paper-logo.png" alt="" class="options" id="paper">
+            <img src="assets/scissors-logo.png" alt="" class="options" id="scissor">
             </div>
         </div>
 
@@ -28,15 +28,15 @@
 
         <div id="computer-area">
             Computer
-            <div id="computer-answer" style="display: none;"></div>
-            <div>
-            <img src="assets/rock-logo.png" alt="">
-            <img src="assets/paper-logo.png" alt="">
-            <img src="assets/scissors-logo.png" alt="">
-            </div>
+            <div id="computer-answer"></div>
         </div>
     </div>
-
+    <br><br>
+    <div id="end-message" style="display: none;"></div>
+    <div id="end-text" style="display: none;"></div>
+    <span id="play-again" style="display: none;">
+        Play Again
+    </span>
 <script src="./game.js"></script>
 </body>
 </html>
